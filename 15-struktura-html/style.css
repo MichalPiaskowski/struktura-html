@@ -1,0 +1,69 @@
+body {
+    background-color: cadetblue;
+}
+
+h1 {
+    margin: 50px 0 30px;
+}
+
+#skills div {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+}
+
+#skills div:nth-of-type(1) {
+    background-color: red;
+}
+
+#skills div:nth-of-type(2) {
+    background-color: blue;
+}
+
+#skills div:nth-of-type(3) {
+    background-color: green;
+}
+
+#skills div:nth-of-type(4) {
+    background-color: gray;
+}
+
+#portfolio div {
+    height: 60px;
+    width: 60px;
+    margin: 15px 0;
+    border: solid 4px;
+}
+
+#portfolio div:nth-of-type(1) {
+    border-color: blueviolet;
+}
+
+#portfolio div:nth-of-type(2) {
+    border-color: aquamarine;
+}
+
+#portfolio div:nth-of-type(3) {
+    border-color: darkred;
+}
+
+#contact address {
+    margin: 30px 0;
+}
+
+#contact input,
+#contact textarea,
+#contact button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#contact button {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: yellow;
+    color: darkblue;
+    font-weight: 600;
+    border-color: black;
+}
